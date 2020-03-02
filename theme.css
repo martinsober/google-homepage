@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#google_logo {
+    display: block; /* What does this do? */
+    margin: 0 auto; /* Centres the logo image */
+    clear: both; /* What does this do? */
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 20px;
+    
+}
+
+#search {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    line-height: 26px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 50px;
+    border: solid 1px #333;
+}
+
+.buttons {
+    display: block;
+    position: relativea;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
