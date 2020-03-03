@@ -4,6 +4,38 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+li {
+    display: inline;
+    padding: 5px;
+}   
+
+#sign-in {
+    display: inline-block;
+    padding: 5px;
+    background-color: #4486F8;
+}
+
+
+
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: #111;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #666;
+}
+
+ul {
+    list-style-type: none; /* What does this do? */
+    margin-top: 20px;  /* removes broweser default settings for margins and paddings */
+    margin-right: 15px;
+    float: right;    
+}
+
 #google_logo {
     display: block; /* What does this do? */
     margin: 0 auto; /* Centres the logo image */
@@ -27,9 +59,12 @@ body {
 
 .buttons {
     display: block;
-    position: relativea;
+    position: relative;
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
+    -webkit-appearance: none;
 }
+
+
 
